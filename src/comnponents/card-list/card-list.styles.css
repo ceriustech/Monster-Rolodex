@@ -1,0 +1,13 @@
+.wrapper {
+    margin: 0 auto;
+    width: 85vw;
+}
+
+.card-list {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap: 20px;
+  }
+  
